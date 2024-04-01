@@ -1,0 +1,449 @@
+ .svg {
+     @import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Secular+One&display=swap);}
+      * {
+         margin: 0;
+         padding: 0;
+         text-decoration: none;
+         list-style: none
+     }
+     .container {
+         max-width: 1200px;
+         margin: auto
+     }
+     body {
+         font-family: 'Secular One', sans-serif;
+         background: rgba(217, 217, 217, .1)
+     }
+     
+     h2,
+     h5,
+     p {
+         letter-spacing: -1px
+     }
+     .apps,
+     .nav-btn,
+     nav,
+     nav ul,
+     nav ul li {
+         display: flex
+     }
+     .btn,
+     .get-btn {
+         color: #fff;
+         font-size: 16px;
+         text-align: center
+     }
+     .btn,
+     .get-btn,
+     .logo {
+         text-align: center
+     }
+     .btn,
+     .get-btn,
+     nav ul li a {
+         font-size: 16px
+     }
+     h1,
+     h2,
+     h5 {
+         font-weight: 700;
+         line-height: 50px
+     }
+     .join-card h3,
+     .logo {
+         letter-spacing: -.293px
+     }
+    
+     .btn,
+     .get-btn,
+     h2,
+     h5,
+     p {
+         font-family: Inter
+     }
+     h2 {
+         color: #1d1d1d;
+         margin-bottom: 35px;
+         font-size: 32px
+     }
+     .card h4,
+     p {
+         color: #223140;
+         font-size: 18px
+     }
+     p {
+         line-height: 32px;
+         margin: 35px 0
+     }
+     h5 {
+         color: #094bca;
+         font-size: 24px;
+         margin-bottom: 15px
+     }
+     .btn {
+         font-weight: 500;
+         line-height: 24px;
+         border-radius: 5px;
+         background: #1361f5;
+         padding: 10px 27px;
+         border: none
+     }
+     .demo-btn,
+     .get-btn,
+     .hero-btn {
+         border-radius: 5px;
+         padding: 10px 27px;
+         font-weight: 500;
+         line-height: 24px
+     }
+     nav {
+         justify-content: space-between;
+         align-items: center
+     }
+     nav ul li {
+         margin: 37px 20px;
+         gap: 5px
+     }
+     nav ul li a {
+         color: #1d1d1d;
+         font-weight: 400;
+         line-height: 26px
+     }
+     .get-btn {
+         background: #094bca;
+         display: inline-flex;
+         margin-top: -10px;
+         margin-left: -20px;
+         align-items: flex-start;
+         gap: 10px
+     }
+     .log-in {
+         color: #094bca;
+         margin-left: 20px
+     }
+     .logo,
+     h1 {
+         color: #1d1d1d
+     }
+     .logo {
+         font-size: 24px;
+         font-family: Secular One
+     }
+     .demo-btn,
+     .hero-btn,
+     .read {
+         font-size: 16px;
+         text-align: center
+     }
+     .card h4,
+     .demo-btn,
+     .hero-btn,
+     h1 {
+         font-family: Inter
+     }
+     .rating-p,
+     h1 {
+         letter-spacing: -1px
+     }
+     .hero-parent {
+         display: flex;
+         margin-top: 35px;
+         gap: 56px
+     }
+     h1 {
+         font-size: 48px
+     }
+     .hero-btn {
+         background: #1361f5;
+         border: none;
+         color: #fff
+     }
+     .demo-btn {
+         border: 1px solid #e0e0e0;
+         color: #094bca;
+         margin-left: 5px
+     }
+     .title-box {
+         margin-top: 15px
+     }
+     .card-parent {
+         display: flex;
+         gap: 20px;
+         padding: 87px 0 90px;
+         margin-left: 50px
+     }
+     .card {
+         width: 250px;
+         height: 150px;
+         flex-shrink: 0;
+         border-radius: 5px;
+         background: #fff;
+         box-shadow: 1px 2px 15px 0 rgba(0, 0, 0, .15)
+     }
+     .icon,
+     .icon-apps {
+         flex-shrink: 0;
+         place-content: center
+     }
+     .card h4 {
+         font-weight: 600;
+         line-height: 24px;
+         padding: 15px 0 5px 15px
+     }
+     .card h6,
+     .join-card h6 {
+         color: #535558;
+         font-size: 14px;
+         font-family: ITF Devanagari Marathi;
+         line-height: 22px
+     }
+     .card h6 {
+         margin-bottom: 14px;
+         margin-left: 15px
+     }
+     .icon {
+         border-radius: 36px;
+         background: rgba(236, 178, 45, .1);
+         width: 36px;
+         height: 36px;
+         display: grid;
+         margin: 0 0 15px 15px
+     }
+     .vector-sec {
+         position: relative
+     }
+     .buss-h2,
+     .work-h2,
+     .work-p {
+         text-align: center
+     }
+     .work-parent {
+         display: flex;
+         gap: 109px;
+         margin: 90px 0 60px 30px
+     }
+     .svg {
+         position: absolute;
+         right: 0;
+         top: 152px
+     }
+     .soft-p {
+         margin-bottom: 60px
+     }
+     .soft-parent {
+         display: flex;
+         gap: 76px;
+         margin: 136px 0 142px 10px
+     }
+     .group-1,
+     .group-2 {
+         display: flex;
+         flex-direction: column;
+         gap: 20px;
+         margin-left: 20px
+     }
+     .icon-apps {
+         border-radius: 12.265px;
+         background: #fff;
+         box-shadow: 0 5.251688480377197px 23px 0 rgba(47, 40, 91, .17);
+         width: 120px;
+         height: 120px;
+         display: grid
+     }
+     .group-2 {
+         margin-top: 40px
+     }
+     .g-app-3 {
+         margin-top: -15px;
+         margin-left: 20px;
+         margin-bottom: 35px
+     }
+     .group-3 {
+         margin-top: -20px
+     }
+     .group-4 {
+         margin-top: -60px
+     }
+     .join-parent {
+         display: flex;
+         gap: 20px;
+         margin: 90px 0 90px 10px
+     }
+     .join-card {
+         position: relative;
+         width: 378px;
+         height: 348px;
+         flex-shrink: 0;
+         border-radius: 10px;
+         background: #fff;
+         box-shadow: 1px 2px 15px 0 rgba(0, 0, 0, .15)
+     }
+     .join-card img {
+         position: absolute;
+         border-radius: 50%;
+         top: -40px;
+         left: 129px
+     }
+     .join-card h6 {
+         text-align: center;
+         padding-top: 80px;
+         margin-bottom: 35px
+     }
+     .join-card h3 {
+         color: #d9d9d9;
+         text-align: center;
+         font-size: 24px;
+         font-family: Secular One
+     }
+     .join-card h4,
+     .rating-p {
+         font-size: 18px;
+         color: #223140
+     }
+     .flex-btn button,
+     .gird-h4,
+     .join-card h4,
+     .rating-p,
+     .read {
+         font-family: Inter
+     }
+     .join-card h4 {
+         font-weight: 600;
+         line-height: 24px;
+         text-align: center;
+         margin-top: 35px
+     }
+     .flex-tittle a,
+     .footer-h4,
+     .gird-h4,
+     .read {
+         font-weight: 500
+     }
+     .rating-p {
+         line-height: 32px;
+         margin-top: -20px
+     }
+     .rating-parent {
+         display: flex;
+         justify-content: space-between;
+         text-align: center;
+         position: relative
+     }
+     .rating-btn {
+         margin: 40px 0 150px 30rem
+     }
+     .flex-btn button {
+         color: var(--blue-base, #004ce6);
+         text-align: center;
+         font-size: 12px;
+         font-weight: 500;
+         border-radius: 2px;
+         background: rgba(19, 97, 245, .1);
+         border: none;
+         padding: 3px 8px;
+         margin-left: 20px
+     }
+     .bussiness-card,
+     .footer-flex {
+         border-radius: 10px;
+         background: #fff;
+         box-shadow: 1px 2px 15px 0 rgba(0, 0, 0, .15)
+     }
+     .gird-h4 {
+         color: #223140;
+         font-size: 18px;
+         line-height: 25px;
+         margin: 10px 0 0 20px
+     }
+     .read {
+         color: #094bca;
+         line-height: 24px;
+         margin: 20px 0 0 20px;
+         display: inline-block
+     }
+     .footer-card li a,
+     .footer-p {
+         font-size: 16px;
+         line-height: 26px
+     }
+     .bussiness-card {
+         width: 378px;
+         height: 348px;
+         flex-shrink: 0
+     }
+     .bussiness-card img {
+         border-top-right-radius: 10px;
+         border-top-left-radius: 10px
+     }
+     .bussiness-parent {
+         display: grid;
+         grid-template-columns: repeat(3, 1fr);
+         grid-gap: 20px;
+         margin: 90px 0 60px 10px
+     }
+     .footer-flex img {
+         width: 157px
+     }
+     .footer-parent {
+         display: flex;
+         justify-content: space-between
+     }
+     .icon-footer {
+         display: flex;
+         gap: 30px
+     }
+     .icon-footer i {
+         color: #094bca;
+         font-size: 18px;
+         font-family: FontAwesome
+     }
+     .flex-tittle a,
+     .flex-tittle h6,
+     .footer-card li a,
+     .footer-h4,
+     .footer-p {
+         font-family: Inter
+     }
+     .footer-p {
+         color: #535558;
+         margin: 29px 0
+     }
+     .footer-h4 {
+         color: #1d1d1d;
+         font-size: 18px;
+         line-height: 28px
+     }
+     .footer-card ul {
+         margin-top: 32px
+     }
+     .footer-card li a {
+         color: #535558;
+         margin-bottom: 10px
+     }
+     .footer-flex {
+         display: flex;
+         width: 380px;
+         height: 115px;
+         flex-shrink: 0;
+         margin: 20px 0
+     }
+     footer {
+         padding-bottom: 40px
+     }
+     .flex-tittle h6 {
+         color: #535558;
+         font-size: 12px;
+         line-height: 22px;
+         margin: 10px
+     }
+     .flex-tittle a {
+         color: #094bca;
+         text-align: center;
+         font-size: 16px;
+         line-height: 24px;
+         margin-left: 10px
+     }
+     position: absolute;
+     right: 0;
+     top: 152px;
+ }
